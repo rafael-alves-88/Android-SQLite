@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DemoLivraria</string>
+    <string name="label_nome">Nome</string>
+    <string name="label_senha">Senha</string>
+    <string name="check_manter_conectado">Manter Conectado</string>
+    <string name="botao_entrar">Entrar</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cadastro">Cadastro</string>
+    <string name="text_titulo">Título</string>
+    <string name="text_autor">Autor</string>
+    <string name="text_isbn">Isbn</string>
+    <string name="text_editora">Editora</string>
+    <string name="text_descricao">Descrição</string>
+    <string name="editar">Editar</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="apagar">Apagar</string>
+    <string name="btn_atualizar_lista">Atualizar Lista</string>
+</resources>

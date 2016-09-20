@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\rafael.alves\Downloads\DemoLivraria\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
+        <dex dex="C:\Users\rafael.alves\Downloads\DemoLivraria\app\build\intermediates\pre-dexed\debug\classes-c61d38e06a21070b9f456e6836c8f7f3204d8285.jar" />
+    </item>
+
+</items>

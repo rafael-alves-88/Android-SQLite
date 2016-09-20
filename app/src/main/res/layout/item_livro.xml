@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    card_view:cardBackgroundColor="@android:color/white"
+    card_view:cardCornerRadius="2dp"
+    card_view:cardElevation="6dp"
+    card_view:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tvTituloLivro"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|bottom"
+                android:layout_weight="0.6"
+                android:background="@color/colorBlackBackgroundCard"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:textColor="@color/colorWhiteTextCard"
+                android:textSize="22sp"
+                tools:text="Titulo do Livro" />
+
+            <TextView
+                android:id="@+id/tvIsbnLivro"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="end|bottom"
+                android:layout_weight="0.4"
+                android:background="@color/colorBlackBackgroundCard"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:textColor="@color/colorWhiteTextCard"
+                android:textSize="14sp"
+                tools:text="Isbn do Livro" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvAutorLivro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingTop="16dp"
+                    android:textSize="12sp"
+                    tools:text="Autor: Autor do Livro" />
+
+                <TextView
+                    android:id="@+id/tvEditoraLivro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:paddingBottom="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingStart="16dp"
+                    android:textSize="12sp"
+                    tools:text="Editora: Editora do Livro" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ivOpcoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.9"
+                android:padding="8dp"
+                android:src="@drawable/ic_more" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/tvDescricaoLivro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:padding="16dp"
+            tools:text="Descrição do Livro" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+
+
