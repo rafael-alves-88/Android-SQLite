@@ -53,7 +53,7 @@ public class LivroDAO {
 
         Cursor cursor = db.query(MeuBD.TABELA_LIVRO, null, null, null, null, null, null);
         if (cursor != null) {
-            cursor.moveToFirst();
+            cursor.moveToPosition(-1);
             while (cursor.moveToNext()) {
                 Livro livro = new Livro();
                 livro.setId(cursor.getInt(cursor.getColumnIndex(ID)));

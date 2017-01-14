@@ -12,6 +12,12 @@ public class MeuBD extends SQLiteOpenHelper {
 
     public MeuBD(Context context) {
         super(context, NOME_BANCO, null, VERSAO_BANCO);
+
+        //save to sd_card
+        //remember to ask for permissions in runtime for storage
+        /*super(context, Environment.getExternalStorageDirectory()
+                + File.separator + FILE_NAME
+                + File.separator + DB_NAME, null, DB_VERSION);*/
     }
 
     @Override
